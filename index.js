@@ -5,7 +5,7 @@ const path = require('path');
 class ApplicationMonitor {
     constructor(options = {}) {
         this.appPath = options.appPath || './main.js';
-        this.maxRestarts = options.maxRestarts || 5;
+        this.maxRestarts = options.maxRestarts || 999;
         this.restartInterval = options.restartInterval || 5000;
         this.restartCount = 0;
     }
@@ -64,7 +64,7 @@ class ApplicationMonitor {
 // Inisialisasi monitor
 const monitor = new ApplicationMonitor({
     appPath: './main.js',
-    maxRestarts: 5,
+    maxRestarts: 999,
     restartInterval: 5000
 });
 

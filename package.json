@@ -2,9 +2,10 @@
   "name": "bot",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "index.js",
   "dependencies": {
     "@mengkodingan/ckptw": "latest",
+    "child_process": "^1.0.2",
     "node-fetch": "^2.7.0",
     "path": "latest",
     "util": "^0.12.5"

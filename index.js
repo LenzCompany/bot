@@ -59,6 +59,16 @@ const question = (text) => {
   })
 };
 
+// FETCHJSON
+	global.fetchJson = async(url) => {
+		try {
+			const res = await axios.get(url)
+			return res.data
+		} catch (error) {
+			console.log(error)
+		}
+		
+	}
 //========[ Loader Execute ]=========
 global.db = new Database(config.database + ".json")
 await db.init(); 

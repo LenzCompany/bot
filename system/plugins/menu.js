@@ -41,7 +41,7 @@ module.exports = {
         });
     });
       let caption = `*🍟 Selamat datang di Dashboard bot*
-Nama saya nekoBot - , Berikut list command bot ini
+Nama saya LenzyBotz - , Berikut list command bot ini
 
 *– 乂 Info User*
 > *- Nama :* ${m.pushName}
@@ -73,16 +73,16 @@ Object.entries(menu).forEach(([tag, commands]) => {
             isForwarded: !0,
             forwardingScore: 127,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: "120363355890061032@newsletter",
-                newsletterName: "☘️ nekoBot | Playground",
+                newsletterJid: "120363361386414424@newsletter",
+                newsletterName: "☘️ LenzyBotz | Playground",
                  serverMessageId: -1
              },
               externalAdReply: {
-               title: "NekoBot - simple WhatsApp bot",
-               body: "- NekoBot adalah bot WhatsApp yang didesain untuk membantu anda di WhatsApp",
+               title: "LenzyBotz - simple WhatsApp bot",
+               body: "- LenzyBotz adalah bot WhatsApp yang didesain untuk membantu anda di WhatsApp",
                mediaType: 1,
                thumbnailUrl: "https://files.catbox.moe/yupd7z.jpg",
-               sourceUrl: "https://api.botwa.space",
+               sourceUrl: "https://api.ndaadev.us.kg",
                renderLargerThumbnail: true
            }
          }

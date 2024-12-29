@@ -1,12 +1,12 @@
 const fs = require('node:fs');
 
 const config = {
-    owner: ["6285351971353", "6281910094713"],
-    name: "- nekoBot - Simple WhatsApp bot",
+    owner: ["6285640575421", "6285640575421"],
+    name: "- LenzyBotz - Simple WhatsApp bot",
     sessions: "sessions",
     sticker: {
       packname: "Made by ",
-      author: "nekoBot"
+      author: "LenzyBotz - 6285640575421"
     },
    messages: {
       wait: "> Data sedang memprosess...",
